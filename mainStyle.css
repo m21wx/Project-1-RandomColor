@@ -1,0 +1,77 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+}
+
+main header{
+    background: #00000080;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+	
+}
+
+
+
+/*  Start footer */
+main footer{
+    background: #0096888f;
+
+}
+main footer .media{
+	display: flex;
+    justify-content: center;
+}
+main footer .media > div{
+    flex: 1;
+
+}
+main footer .media > .communicate{
+    padding: 20px;
+	text-align: center;
+}
+main footer .media > .communicate > a{
+	display: inline-block;
+    text-align: center;
+    margin: 5px;
+    height: 50px;
+    width: 50px;	
+}
+main footer .media > .communicate > a i{
+ font-size: 50px;
+}
+main footer .media > .communicate .inst{
+     color: #f321dd;
+ 
+}
+main footer .media > .communicate  .snap{
+     color: #ffeb3b;
+ 
+}
+main footer .media > .communicate  .x-twi{
+    color: #2196f3;
+  
+}
+main footer .media > .communicate  .git{
+    color: #000;
+ 
+}
+main footer .media > .communicate  .yout{
+    color: #ff0000;
+    
+}
+main footer .footer{
+   border-top: 1px solid #eee;
+    padding: 20px 0;
+    text-align: center;
+
+}
+@media(max-width:667px){
+	main footer .media{
+	flex-direction: column;
+    align-items: center;
+    gap: 10px;
+	}
+}
